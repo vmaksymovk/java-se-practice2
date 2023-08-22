@@ -5,7 +5,7 @@ public class ex26LargestPrime {
         if (number <= 1) {
             return -1;
         }
-        int largestPrime = 2; 
+        int largestPrime = 2;
         while (number > 1) {
             if (number % largestPrime == 0) {
                 number /= largestPrime;
